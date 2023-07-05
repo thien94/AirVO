@@ -255,7 +255,7 @@ bool MapBuilder::Init(FramePtr frame, cv::Mat& image_left, cv::Mat& image_right)
 
   // Eigen::Matrix4d init_pose = Eigen::Matrix4d::Identity();
   Eigen::Matrix4d init_pose;
-  init_pose << 1, 0, 0, 0, 0, 0, 1, 0, 0, -1, 0, 1, 0, 0, 0, 1;
+  init_pose << 1, 0, 0, 0, 0, 0, 1, 0, 0, -1, 0, 0, 0, 0, 0, 1;
   frame->SetPose(init_pose);
   frame->SetPoseFixed(true);
 
