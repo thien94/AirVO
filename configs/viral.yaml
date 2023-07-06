@@ -8,7 +8,7 @@ bf: 111.3537958542699
 
 depth_lower_thr: 0.1
 depth_upper_thr: 10.0
-max_y_diff: 2
+max_y_diff: 10
 
 # radial-tangential: 0, equidistant/fisheye: 1
 distortion_type: 0
